@@ -3,14 +3,16 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js",
+    "command": "node command.js"
   },
   "author": "fGHG99",
   "license": "ISC",
   "description": "this is a personal project created by fGHG99 for his personal discord bot project on node.js",
   "dependencies": {
     "discord.js": "^14.21.0",
-    "dotenv": "^17.1.0"
-  },
-  "type": "module"
+    "dotenv": "^17.1.0",
+    "nodemon": "^3.1.10"
+  }
 }
