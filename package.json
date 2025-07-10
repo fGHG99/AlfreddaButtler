@@ -11,6 +11,7 @@
   "license": "ISC",
   "description": "this is a personal project created by fGHG99 for his personal discord bot project on node.js",
   "dependencies": {
+    "canvas": "^3.1.2",
     "discord.js": "^14.21.0",
     "dotenv": "^17.1.0",
     "nodemon": "^3.1.10"
